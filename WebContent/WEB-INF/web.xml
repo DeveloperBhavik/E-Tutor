@@ -9,4 +9,44 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>FacultySignupController</servlet-name>
+  	<servlet-class>com.controller.FacultySignupController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FacultySignupController</servlet-name>
+  	<url-pattern>/FacultySignupController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>StudentSignupController</servlet-name>
+  	<servlet-class>com.controller.StudentSignupController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StudentSignupController</servlet-name>
+  	<url-pattern>/StudentSignupController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+  	<servlet-name>FacultyLoginController</servlet-name>
+  	<servlet-class>com.controller.FacultyLoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FacultyLoginController</servlet-name>
+  	<url-pattern>/FacultyLoginController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>StudentLoginController</servlet-name>
+  	<servlet-class>com.controller.StudentLoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StudentLoginController</servlet-name>
+  	<url-pattern>/StudentLoginController</url-pattern>
+  </servlet-mapping>
+  
 </web-app>

@@ -45,6 +45,7 @@
 		<jsp:include page="header.jsp"></jsp:include>
 	<!-- End Header Area -->
 	
+	<form action="FacultySignupController" method="post">
 	<!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
@@ -94,7 +95,8 @@
 								 <input name="degree" placeholder="Enter Your Degree Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Your Degree Name'"class="common-input mb-20 form-control" required="" type="text">
 
 								 <input name="subject" placeholder="Enter Your Subject You Will Teach" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Your Subject You Will Teach'"class="common-input mb-20 form-control" required="" type="text">
-
+								 
+								 <input name="time" placeholder="Enter Suitable Time For Lecture" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Suitable Time For Lecture'"class="common-input mb-20 form-control" required="" type="text">
 				 
 							</div>
 							<div class="col-lg-6" style="margin-left: 310px;">
@@ -105,10 +107,10 @@
 					</div>
 	</div>
 	<div class="col-lg-8" style="margin-top: 30px; margin-left: 550px; font-size: 20px;">
-		<p>Already Have An Account? &nbsp;<a href="login.html" target="_blank">Login</a></p>
+		<p>Already Have An Account? &nbsp;<a href="facultylogin.jsp" target="_blank">Login</a></p>
 	</div>
 	<!-- End Login Area -->
-
+	</form>
 	<!-- Start Footer Area -->
 		<jsp:include page="footer.jsp"></jsp:include>
 	<!-- End Footer Area -->

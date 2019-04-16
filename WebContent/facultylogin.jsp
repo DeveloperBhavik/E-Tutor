@@ -45,6 +45,7 @@
 		<jsp:include page="header.jsp"></jsp:include>
 	<!-- End Header Area -->
 	
+	<form action="FacultyLoginController" method="post">
 	<!-- Start Banner Area -->
 	<section class="banner-area relative">
 		<div class="container">
@@ -89,10 +90,10 @@
 					</div>
 	</div>
 	<div class="col-lg-8" style="margin-top: 30px; margin-left: 570px; font-size: 20px;">
-		<p>Don't Have An Account? &nbsp;<a href="signup.html" target="_blank">Sign Up</a></p>
+		<p>Don't Have An Account? &nbsp;<a href="facultysignup.jsp" target="_blank">Sign Up</a></p>
 	</div>
 	<!-- End Login Area -->
-
+	</form>
 	<!-- Start Footer Area -->
 		<jsp:include page="footer.jsp"></jsp:include>
 	<!-- End Footer Area -->
